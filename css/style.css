@@ -215,6 +215,9 @@ a {
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* Class pour Hebergements*/
@@ -287,6 +290,7 @@ a {
 
 .populaires-cards .card {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 33px;
 }
 
@@ -443,11 +447,13 @@ a {
 .populaires-cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.populaires-cards .card {
-    width: 15%;
+.card {
+  min-width: 32%;
+  width: 90%;
 }
 
 .populaires-cards .card-title {
@@ -458,8 +464,28 @@ a {
     font-size: 13px;
 }
 
-.activites {
-  flex-direction: column;
+
+.hebergementsPrincip{
+  min-width: 30%;
+  width: 100%;
 }
+
+.activites {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cardAct {
+  display: flex;
+  flex-direction: column;
+align-content: center;
+}
+
+.card-activite{
+  width: 90%;
+}
+
 
 }
