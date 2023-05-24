@@ -3,6 +3,8 @@
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   box-sizing: border-box;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 * {
@@ -22,6 +24,7 @@ a {
   display: flex;
   align-items: center;
   grid-area: navbar;
+  position : absolute;
 }
 
 .nav_link{
@@ -42,6 +45,15 @@ a {
 .fa-solid {
   color: var(--main-color);
 }
+
+.fa-location-dot {
+  color: #000;
+}
+
+.fa-magnifying-glass {
+  display: none;
+}
+
 
 :root {
   --main-color: #0065FC;
@@ -120,12 +132,11 @@ a {
   
 }
 .button1 {
-  height: fit-content;
-  position: static;
   font-size: 25px;
-  background-color: lightskyblue;
+  background-color: blue;
   border-radius: 0px 10px 10px 0px;
   padding:15px;
+  color: white;
 }
 
 .buttonEco { 
@@ -454,6 +465,15 @@ a {
     flex-wrap: wrap;
 }
 
+.search__btn {
+  display: none;
+}
+
+.fa-magnifying-glass {
+  display: inline-block;
+  color: white;
+}
+
 .card {
   min-width: 32%;
   width: 90%;
@@ -490,5 +510,12 @@ align-content: center;
   width: 90%;
 }
 
+.footer {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 50px;
+  width: 725px;
+}
 
 }
