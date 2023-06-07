@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin-left: 3em;
   margin-right: 3em;
+  margin-top: 0;
 }
 
 
@@ -19,9 +20,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
+header>nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -48px;
+}
 
-.logo_wrapper {
+.logo_wrapper>img {
+  height: 100%;
+}
+  .logo_wrapper {
   margin: 30px;
+  height: 20px;
 }
 
 .end {
@@ -47,7 +57,6 @@ p.info>i {
   transition-duration: 0.1s;
   border-top: 3px transparent solid;
   border-bottom: 3px transparent solid;
-  width: 50%;
 }
 
 
@@ -457,6 +466,17 @@ border-right: none;
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .nav_link {
+  width: 50%;
+
+  }
+
+  .nav_link:hover{
+    border-top: none;
+    border-bottom: 2px blue solid;
+    color :#0065FC;
+  }
+
   .hebergements-and-populaires {
       margin: 20px 0;
       flex-wrap: wrap-reverse;
@@ -557,6 +577,7 @@ align-content: center;
 }
 
 .logo_wrapper {
+  margin: 30px 50px;
   display : flex;
   justify-content: center;
 }
