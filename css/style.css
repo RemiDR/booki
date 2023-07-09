@@ -570,6 +570,12 @@ header>*:not(.navig){
     font-size: 13px;
 }
 
+.searchbar {
+  padding-left: 2px;
+  padding-right: 2px;
+  width: 180px;
+}
+
 
 .hebergementsPrincip{
   min-width: 30%;
