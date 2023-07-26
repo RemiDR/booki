@@ -30,6 +30,7 @@ header>nav{
 }
 
 .logo_wrapper>img {
+  margin-left: 18px;
   height: 100%;
 }
   .logo_wrapper {
@@ -206,7 +207,7 @@ border-right: none;
 .search_container {
   display: flex;
   align-items: baseline;
-  
+  margin-bottom: 25px;
 }
 
 /* Partie Filtres*/
@@ -271,7 +272,6 @@ border-right: none;
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
-  display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -305,7 +305,6 @@ border-right: none;
   cursor: pointer;
   width: 30%;
   padding: 5px 5px 10px;
-  height: 285px;
 }
 
 .hebergementsPrincip:hover {
@@ -350,7 +349,6 @@ border-right: none;
 .populaires-title {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   width: 100%;
 }
 
@@ -498,6 +496,7 @@ border-right: none;
   width: 50%;
 
   }
+
 
   .nav_link:hover{
     border-top: none;
