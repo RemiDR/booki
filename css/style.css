@@ -576,7 +576,7 @@ header>*:not(.navig){
 .searchbar {
   padding-left: 2px;
   padding-right: 2px;
-  width: 180px;
+  width: 100%;
 }
 
 
@@ -616,8 +616,12 @@ header>*:not(.navig){
   width:50%;
 }
 
-.header h1{
+header h1{
   font-size: 25px;
+}
+
+.trouv {
+  margin-bottom: 5px;
 }
 
 .center-all{
