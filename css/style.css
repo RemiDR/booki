@@ -1,8 +1,11 @@
 *{box-sizing:border-box;}
 
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
 
  body {
-  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   box-sizing: border-box;
   margin-left: 3em;
@@ -441,7 +444,7 @@ border-right: none;
   flex-direction: row;
   justify-content: center;
   padding: 20px;
-  
+  margin-bottom: -8px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
