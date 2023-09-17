@@ -8,6 +8,7 @@
  body {
   font-size: 16px;
   box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
   margin-left: 3em;
   margin-right: 3em;
 }
@@ -417,6 +418,7 @@ border-right: none;
 
 .cardAct h3{
   margin-left: 5%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .figure-act {
@@ -598,6 +600,7 @@ header>*:not(.navig){
 
 .hebergements h2 {
   margin-left: unset;
+  font-family: 'Raleway', sans-serif;
 }
 
 .cardAct {
@@ -610,6 +613,7 @@ header>*:not(.navig){
 
 .activites h2{
   margin-left: 5%;
+  font-family: 'Raleway', sans-serif;
 }
 
 .card-activite{
@@ -623,6 +627,7 @@ header>*:not(.navig){
 
 header h1{
   font-size: 25px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .trouv {
