@@ -152,6 +152,11 @@ p.info>i {
   justify-content: space-between;
   margin-top: -8px;
 }
+
+.searchbar::placeholder {
+  color:black;
+}
+
 .searchbar {
   font-size: 18px;
   outline: none;
@@ -167,6 +172,7 @@ p.info>i {
   border-right: none;
   font-weight: 700;
 }
+
 
 .button {
   height: fit-content;
@@ -512,7 +518,9 @@ p.info>i {
   width: 50%;
 
   }
-
+  header>nav{
+    margin: 0px;
+  }
 
   .nav_link:hover{
     border-top: transparent;
