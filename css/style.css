@@ -96,7 +96,6 @@ p.info>i {
   display: none;
 }
 
-
 :root {
   --main-color: #0065FC;
   --main-bg-color: #F2F2F2;
@@ -165,7 +164,8 @@ p.info>i {
   border-right-color: gainsboro;
   border-right-style: solid;
   border-right-width: 1px;
-border-right: none;
+  border-right: none;
+  font-weight: 700;
 }
 
 .button {
@@ -189,6 +189,7 @@ border-right: none;
   color: white;
   border: solid #0065FC;
   position: relative;
+  margin-left: -8px;
   }
 
 .buttonEco { 
@@ -231,6 +232,10 @@ border-right: none;
   background-color: lightblue;
 }
 
+.filtre>i
+{
+  margin-right: 12px;
+}
 /* Class Reutilisables*/
 .flex-box {
   display: flex;
@@ -510,9 +515,13 @@ border-right: none;
 
 
   .nav_link:hover{
-    border-top: none;
+    border-top: transparent;
     border-bottom: 2px blue solid;
     color :#0065FC;
+  }
+
+  .button1{
+    border-radius: 10px;
   }
 
   .hebergements-and-populaires {
@@ -529,6 +538,7 @@ border-right: none;
 
   .filtre {
     width: 45%;
+    padding: 12px;
   }
 
 .hebergements {
@@ -581,7 +591,6 @@ header>*:not(.navig){
 }
 
 .searchbar {
-  padding-left: 2px;
   padding-right: 2px;
   width: 100%;
 }
@@ -635,7 +644,7 @@ header h1{
 }
 
 .center-all{
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .logo_wrapper>img {
@@ -657,6 +666,7 @@ header h1{
 body {
   margin-left: 0em;
   margin-right: 0em;
+  font-size: 18px;
 }
 
 .navig{
